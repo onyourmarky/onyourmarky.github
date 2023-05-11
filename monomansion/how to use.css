@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: black;
+    text-align: left;
+    color: aliceblue;
+    font-size: 35px;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color:white;
+}
+
+
+nav {
+    height: 150px;
+    color: aliceblue;
+    background-color: black;
+    line-height: 80px;
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+nav::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.nav-logo {
+    font-size: 0px;
+    float: left;
+    margin: 0;
+}
+
+
+.nav-btn {
+    list-style-type: none;
+    margin: 0;
+}
+
+ul.nav-btn > li {
+    float: left;
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hd {
+    position: relative;
+    height: 600px;
+   text-align: left;
+  
+}
+
+.hd-title {
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 30px;
+padding-top: 200px;
+
+}
+
+.hd-content {
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.hd:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+height: 100%;
+opacity: 0.5;
+background-color: rgb(0, 0, 0);
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+}s
+
+.hd .container {
+    position: relative;
+    color: aliceblue;
+}
+
+
+.sec {
+    text-align: left;
+    padding: 200px 0;
+    background-color: rgb(0, 0, 0);
+    color: ;
+}
+
+
+
+.sec::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/* footer */
+.ft {
+    padding: 50px;
+    font-size: 30px;
+    text-align: center;
+    background-color:rgb(0, 0, 0);
+    color: aliceblue;
+}
