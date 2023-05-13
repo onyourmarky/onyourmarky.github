@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.calculator{
+width: 287px;
+border: 1px solid #000000;
+background-color: #eae4e4;
+padding: 5px;
+
+}
+
+.calculator form{
+    display: grid;
+    grid-template-columns: repeat(4, 65px);
+grid-auto-flow: 65px;
+grid-gap: 5px;
+}
+
+/*손가락모양 */
+.calculator form input{
+    cursor: pointer; 
+}
+
+/*음영*/
+
+.calculator form input:hover{
+  box-shadow: 1px 1px 2px #333;
+}
+
+.calculator form .clear{
+    background-color: rgb(172, 206, 172);
+}
+
+.calculator form .number{
+    background-color: rgb(231, 231, 189);
+}
+
+.calculator form .operator{
+    background-color: rgb(244, 185, 217);
+}
+
+.calculator form .dot{
+    background-color: bisque;
+}
+
+.calculator form input[type='text']{
+    grid-column: span 3;
+    text-align: right;
+    padding: 0 10px;
+}
